@@ -191,3 +191,26 @@ html, body{
     transform: rotatey(-393deg);
 }
 /*-- //social-icons --*/
+
+.btn-normal {
+    padding: 8px 20px;
+    background: #1dcb8b;
+    border: 2px solid #1dcb8b;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    margin: 3em 0 0 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.btn-normal:hover {
+    color: #fff;
+    text-decoration: none!important;
+    outline:none!important;
+    background:transparent;
+    border-color:#fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
