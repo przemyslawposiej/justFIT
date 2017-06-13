@@ -125,5 +125,69 @@ html, body{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 5em;
+    margin-top: 4em;
 }
+
+/*-- social-icons --*/
+.mainSocial {
+    float: right;
+    margin: 5em 4em 0em 0em;
+}
+
+.social-icons li{
+    display:inline-block;
+}
+.social-icons li a{
+    /*background: url(../images/social-icons.png) no-repeat 2px 2px;*/
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 1.2em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+.social-icons li a:before {
+    content: '';
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    transition:.5s all;
+}
+.social-icons li a.fb{
+    background-image: url("../images/facebook.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-icons li a.in{
+    background-image: url("../images/linkedin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-icons li a.gplus {
+    background-image: url("../images/google-plus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-icons li a.twit {
+    background-image: url("../images/twitter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social-icons li a:hover::before {
+    border-color: #1dcb8b;
+    -webkit-transform: rotatey(-393deg);
+    -moz-transform: rotatey(-393deg);
+    -o-transform: rotatey(-393deg);
+    -ms-transform: rotatey(-393deg);
+    transform: rotatey(-393deg);
+}
+/*-- //social-icons --*/
