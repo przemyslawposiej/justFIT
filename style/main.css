@@ -50,7 +50,7 @@ html, body{
     transition: all 0.3s ease-in-out;
 }
 
-/* banner style */
+/* banner & slider  style */
 #slider3 {
     box-shadow: none;
     -moz-box-shadow: none;
@@ -83,4 +83,34 @@ html, body{
     position: relative;
     display: block;
     float: left;
+}
+.callbacks_nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    bottom:-54%;
+    left: 0;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    width:32px;
+    height:32px;
+    display:block;
+}
+.callbacks_nav:hover{
+    opacity: 0.5;
+}
+.callbacks_nav.next {
+    background: transparent url("../images/up.png") no-repeat 0px 0px;
+    left: auto;
+    left: 4%;
+}
+.callbacks_nav.prev {
+    background: transparent url("../images/down.png") no-repeat 0px 0px;
+    left: 0%;
+}
+.callbacks_nav.next, .callbacks_nav.prev {
+    background-size: 22px;
+    width: 22px;
+    height: 22px;
 }
