@@ -7,9 +7,9 @@
   <link href="style/normalize.css" type="text/css" rel="stylesheet">
   <link href="style/bootstrap.min.css" rel="stylesheet">
   <link href="style/main.css" type="text/css" rel="stylesheet">
+  <link href="style/about.css" type="text/css" rel="stylesheet">
   <link href="style/owl.carousel.min.css" rel="stylesheet">
   <link href="style/owl.theme.default.min.css" rel="stylesheet">
-
 </head>
 <body>
 <div class="mainHome">
@@ -34,9 +34,7 @@
           <li><a href="#" data-anchor="xxx">Link 5</a></li>
         </ul>
       </div>
-      <div class="clearfix"></div>
     </nav>
-    <div class="clearfix"></div>
   </div>
   <div class="container">
     <!-- banner-slider -->
@@ -63,7 +61,6 @@
     </div>
     <p><a href="#" data-anchor="about" class="btn-normal">Więcej</a></p>
   </div>
-
   <div class="mainSocial">
     <ul class="social-icons">
       <li><a href="#" class="fb"> </a></li>
@@ -71,30 +68,53 @@
       <li><a href="#" class="gplus"> </a></li>
       <li><a href="#" class="twit"> </a></li>
     </ul>
-    <div class="clearfix"></div>
   </div>
+</div>
+<div class="mainAbout">
+  <div class="container">
+    <h3 class="aboutHead">About Us</h3>
+    <div class="aboutCols">
+      <div class="col-md-4 col-sm-4">
+        <h3>Skomponuj swój plan żywieniowy</h3>
+        <p>Przesortuj spośród setek produktów oraz pogrupuj według kategori. Uporządkowany na posiłki i dni tygodnia plan, pozwoli wygodnie rozmieścić produkty. Ponadto dodawaj własne produkty, dziel się ze znajomymi swoim planem oraz obserwuj postępy.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 aboutList">
+        <h3>Atuty aplikacji</h3>
+        <ul>
+          <li class="">Oszczędność czasu</li>
+          <li class="">Intuicyjność</li>
+          <li class="">Mobilność</li>
+          <li class="">Funkcjonalność</li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <img src="images/" alt="">
+      </div>
+    </div>
+  </div>
+</div>
 
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/responsiveslides.min.js"></script>
-  <script>
-    $(function () {
-      // Slideshow 3
-      $("#slider3").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 1000,
-        namespace: "callbacks",
-        before: function () {
-          $('.events').append("<li>before event fired.</li>");
-        },
-        after: function () {
-          $('.events').append("<li>after event fired.</li>");
-        }
-      });
-
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+  $(function () {
+    // Slideshow 3
+    $("#slider3").responsiveSlides({
+      auto: true,
+      pager: false,
+      nav: true,
+      speed: 1000,
+      namespace: "callbacks",
+      before: function () {
+        $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+        $('.events').append("<li>after event fired.</li>");
+      }
     });
-  </script>
+
+  });
+</script>
 </body>
 </html>
