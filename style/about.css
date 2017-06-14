@@ -46,3 +46,15 @@ ul {
     min-height: 300px;
     padding: 15px;
 }
+.listTime {
+    background: url("../images/stopwatch.png") no-repeat 0px 10px;
+}
+.listInt {
+    background: url("../images/finger.png") no-repeat 0px 10px;
+}
+.listMob {
+    background: url("../images/smartphone (1).png") no-repeat 0px 10px;
+}
+.listFunc {
+    background: url("../images/network.png") no-repeat 0px 10px;
+}
