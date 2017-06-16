@@ -1,12 +1,25 @@
 .bg_wallpaper {
-
     background-color: #279d8b;
     width: 100%;
     height: auto;
     min-height: 20vh;
     padding: 10px 100px 10px 100px;
 }
+.bg_wallpaper h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    transform: rotate(4deg) ;
 
+}
+.mainFunc {
+    padding-bottom: 8em;
+}
 .aboutX{
     overflow: hidden;
     margin: 0 -50px;
@@ -18,21 +31,6 @@
     transform-origin: left top;
     transform: rotate(-4deg);
 }
-/* Nagłówek kontenera *************************** */
-.func_title {
-    text-align: center;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    transform: rotate(4deg) ;
-}
-.func_title h1 {
-    text-transform: uppercase;
-    font-family: Arial, sans-serif;
-    font-weight: 800;
-    color: #ffffff;
-    letter-spacing: .03em;
-}
-
 
 .img-responsive {
     float: right;
