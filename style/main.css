@@ -244,12 +244,20 @@ html, body{
     text-decoration: none;
 }
 
+/*#mainNav ul li a:active span, #mainNav ul li:hover a:active span {*/
+    /*height: 12px;*/
+    /*width: 12px;*/
+    /*margin: -6px 0 0 -6px;*/
+    /*border-radius: 100%;*/
+    /*background: #fff;*/
+/*}*/
+
 #mainNav ul li a span {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 10px;
-    width: 10px;
+    height: 9px;
+    width: 9px;
     border: 0;
     background: #1dcb8b;
     left: 50%;
@@ -263,7 +271,9 @@ html, body{
 #mainNav ul li a span:hover {
     height: 13px;
     width: 13px;
-    margin: -6px 0 0 -6px;
+    left: 50%;
+    top: 50%;
+    margin: -4px 0 0 -4px;
     border-radius: 100%;
     background: #0099e5;
 }
