@@ -1,5 +1,18 @@
 .mainServ {
     background-color: #9e9e9e;
+    transform-origin: left top;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -o-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform: rotate(4deg);
+    overflow: hidden;
+    margin: 0px -50px;
+    padding-bottom: 10em;
+}
+.mainServRotate {
+    transform: rotate(-4deg) ;
+    margin-top: 4em;
 }
 .mainServ h3 {
     text-align: center;
@@ -8,7 +21,7 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 2em;
+    /*margin-top: 4em;*/
     margin-bottom: 2em;
 }
 .mainServ h4 {
