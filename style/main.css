@@ -221,7 +221,7 @@ html, body{
     position: fixed;
     z-index: 100;
     margin-top: -32px;
-    top: 46%;
+    top: 40%;
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
 }
