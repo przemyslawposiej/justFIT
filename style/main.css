@@ -243,15 +243,6 @@ html, body{
     cursor: pointer;
     text-decoration: none;
 }
-
-/*#mainNav ul li a:active span, #mainNav ul li:hover a:active span {*/
-    /*height: 12px;*/
-    /*width: 12px;*/
-    /*margin: -6px 0 0 -6px;*/
-    /*border-radius: 100%;*/
-    /*background: #fff;*/
-/*}*/
-
 #mainNav ul li a span {
     border-radius: 50%;
     position: absolute;
@@ -311,13 +302,6 @@ html, body{
     width: auto;
     opacity: 1;
 }
-
-/*#mainNav.fp-show-active a.active + .fp-tooltip {*/
-    /*-webkit-transition: opacity 0.2s ease-in;*/
-    /*transition: opacity 0.2s ease-in;*/
-    /*width: auto;*/
-    /*opacity: 1;*/
-/*}*/
 
 #mainNav ul li .fp-tooltip.right { right: 25px; }
 
