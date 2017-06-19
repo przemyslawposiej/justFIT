@@ -1,0 +1,53 @@
+.mainServ {
+    background-color: #eaeaea;
+    color: #858585;
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -o-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform: rotate(4deg);
+    overflow: hidden;
+    margin: 0px -50px;
+    padding-bottom: 10em;
+}
+.mainServRotate {
+    transform: rotate(-4deg) ;
+    margin-top: 4em;
+}
+.mainServ h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    /*margin-top: 4em;*/
+    margin-bottom: 2em;
+}
+.mainServ h4 {
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.icoBorder {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    float: left;
+    border-radius: 100%;
+    border: 1px solid #7b8185;
+    box-shadow: 0 0 6px 1px #504848;
+}
+.icoSet {
+    display: block;
+    margin: 18px auto;
+    position: relative;
+}
+.textServ {
+    display: block;
+    font-size: 15px;
+    margin-left: 110px;
+}

@@ -1,0 +1,72 @@
+.bgsub {
+    background: url("../images/triangle.jpg")no-repeat center 0px;
+    background-size: cover;
+}
+.mainSubs {
+    color: #fff;
+    overflow: hidden;
+    margin: 0 -50px;
+    margin-top: -8em;
+    padding-bottom: 6em;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -o-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    transform: rotate(-4deg);
+}
+.subsHead {
+    transform: rotate(4deg) ;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+.subsHead h4 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.subsHead h5 {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.subsHead form {
+    width: 50%;
+    margin: 3em auto 0;
+}
+.subsHead input[type="email"] {
+    width: 100%;
+    padding: 1em 1em;
+    font-size: 1em;
+    float: left;
+    color: #5f9ea0;
+    outline: none;
+    border: 1px solid #fff;
+    border-right: none;
+    background: #fff;
+    -webkit-appearance: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.subsHead input[type="submit"] {
+    float: left;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    padding: .8em 2em;
+    border: 1px solid #fff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-appearance: none;
+    background: none;
+    font-weight: 600;
+}
+.subsHead input[type="submit"]:hover {
+    background: #0099e5;
+}

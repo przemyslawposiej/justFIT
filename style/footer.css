@@ -1,0 +1,14 @@
+.footer {
+    background-color: #3c3c3c;
+    height: 40vh;
+    overflow: hidden;
+    margin: 0 -50px;
+    margin-top: -10em;
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -o-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    transform: rotate(0deg);
+
+}

@@ -1,0 +1,60 @@
+.mainAbout {
+    background-color: #eaeaea;
+    padding-bottom: 8em;
+    color: #858585;
+}
+.aboutHead {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.aboutCols h3 {
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #858585;
+    margin-bottom: 2em;
+}
+.aboutCols p {
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+ul {
+    padding-top: 1em;
+}
+.aboutCols ul li {
+    display: block;
+    letter-spacing: 1px;
+    padding: 20px 0 0px 50px;
+}
+.aboutList h3 {
+    padding-left: 2em;
+}
+.aboutPic {
+    background: #1dcb8b;
+    position: relative;
+    min-height: 300px;
+    padding: 15px;
+}
+.listTime {
+    background: url("../images/stopwatch.png") no-repeat 0px 10px;
+}
+.listInt {
+    background: url("../images/finger.png") no-repeat 0px 10px;
+}
+.listMob {
+    background: url("../images/smartphone (1).png") no-repeat 0px 10px;
+}
+.listFunc {
+    background: url("../images/network.png") no-repeat 0px 10px;
+}
