@@ -276,6 +276,21 @@
 
   });
 </script>
-
+<script>
+  function initMap() {
+    var lublin = {lat: 51.218, lng: 22.423};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: lublin
+    });
+    var marker = new google.maps.Marker({
+      position: lublin,
+      map: map
+    });
+  }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQoCUmaY_EZdBqz31E_d1ywS2mWOcIZT4&callback=initMap">
+</script>
 </body>
 </html>
