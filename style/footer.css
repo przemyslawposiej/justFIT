@@ -21,3 +21,16 @@
 .footCont {
     text-align: right;
 }
+.footCont span {
+    color: #1dcb8b;
+}
+.footCont h3 {
+    color: #1dcb8b;
+}
+.followFoot h3 {
+    text-align: center;
+    color: #1dcb8b;
+}
+.followFoot ul {
+    text-align: center;
+}
