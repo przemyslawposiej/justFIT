@@ -8,7 +8,7 @@
     -ms-transform-origin: right top;
     transform: rotate(4deg);
     overflow: hidden;
-    margin: 0px -50px;
+    margin: 0px -100px;
     padding-bottom: 10em;
 }
 .mainServRotate {
@@ -22,7 +22,6 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-    /*margin-top: 4em;*/
     margin-bottom: 2em;
 }
 .mainServ h4 {
