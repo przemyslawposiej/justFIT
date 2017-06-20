@@ -1,0 +1,19 @@
+@media(max-width:320px){
+    .bannerStyle h4 {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    .bannerStyle p {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+    }
+    .bannerStyle {
+        width: 85%;
+    }
+    .callbacks_nav.next {
+        margin-left: 25px;
+    }
+    .mainHome {
+        background-position: center;
+    }
+}

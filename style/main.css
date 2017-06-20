@@ -9,9 +9,11 @@ html, body{
 
 .mainHome {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-image: url('../images/1.jpg');
     background-size: cover;
+    background-position: center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
