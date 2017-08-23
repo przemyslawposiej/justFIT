@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>justFIT!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style/normalize.css" type="text/css" rel="stylesheet">
   <link href="style/bootstrap.min.css" rel="stylesheet">
@@ -11,8 +11,13 @@
   <link href="style/func.css" type="text/css" rel="stylesheet">
   <link href="style/serv.css" type="text/css" rel="stylesheet">
   <link href="style/subs.css" type="text/css" rel="stylesheet">
+  <link href="style/footer.css" type="text/css" rel="stylesheet">
+  <link href="style/media.css" type="text/css" rel="stylesheet">
   <link href="style/owl.carousel.min.css" rel="stylesheet">
   <link href="style/owl.theme.default.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar-default">
 <div id="main" class="mainHome">
@@ -26,21 +31,18 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <!-- navbar-header -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="page-scroll smooth-slide" href="#home">Home</a></li>
           <li><a class="page-scroll smooth-slide" href="#about">O Aplikacji</a></li>
-          <li><a class="page-scroll smooth-slide" href="#function">Funkcje</a></li>
-          <li><a class="page-scroll smooth-slide" href="#service">Możliwości</a></li>
-          <li><a href="#" data-anchor="xxx">Link 4</a></li>
-          <li><a href="#" data-anchor="xxx">Link 5</a></li>
+          <li><a class="page-scroll smooth-slide" href="#function">Możliwości</a></li>
+          <li><a class="page-scroll smooth-slide" href="#service">Funkcjonalość</a></li>
+          <li><a class="page-scroll smooth-slide" href="#subscribe">Kontakt</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <div class="container">
-    <!-- banner-slider -->
     <div class="callbacks_container">
       <div class="bannerStyle">
         <ul class="rslides" id="slider3">
@@ -65,24 +67,24 @@
     <p><a class="page-scroll smooth-slide btn-normal" href="#about">Więcej</a></p></div>
   <div class="mainSocial">
     <ul class="social-icons">
-      <li><a href="#" class="fb"> </a></li>
-      <li><a href="#" class="in"> </a></li>
-      <li><a href="#" class="gplus"> </a></li>
-      <li><a href="#" class="twit"> </a></li>
+      <li><a target="_blank" href="https://www.facebook.com/Justfit-877309445777722/" class="fb"> </a></li>
+      <li><a target="_blank" href="https://www.instagram.com/justfit.team/" class="in"> </a></li>
+      <li><a target="_blank" href="https://plus.google.com/u/0/108744131977163382563" class="gplus"> </a></li>
+      <li><a target="_blank" href="https://twitter.com/justFITteam" class="twit"> </a></li>
     </ul>
   </div>
 </div>
 <div id="about" class="se-slope mainAbout">
   <div class="container">
-    <h3 class="aboutHead">About Us</h3>
+    <h3 class="aboutHead">O aplikacji</h3>
     <div class="aboutCols">
-      <div class="col-md-4 col-sm-4">
+      <div class="col-md-4 col-sm-12">
         <h3>Skomponuj swój plan żywieniowy</h3>
         <p>Przesortuj spośród setek produktów oraz pogrupuj według kategori. Uporządkowany na posiłki i dni tygodnia
           plan, pozwoli wygodnie rozmieścić produkty. Ponadto dodawaj własne produkty, dziel się ze znajomymi swoim
           planem oraz obserwuj postępy.</p>
       </div>
-      <div class="col-md-4 col-sm-4 aboutList">
+      <div class="col-md-4 col-sm-6 aboutList">
         <h3>Atuty aplikacji</h3>
         <ul>
           <li class="listTime">Oszczędność czasu</li>
@@ -91,8 +93,8 @@
           <li class="listFunc">Funkcjonalność</li>
         </ul>
       </div>
-      <div class="col-md-4 col-sm-4 aboutPic">
-        <img src="./images/2.jpg" alt="">
+      <div class="col-md-4 col-sm-6 aboutPic">
+        <img src="./images/2.jpg" alt="" class="img-responsive">
       </div>
     </div>
   </div>
@@ -104,7 +106,7 @@
     </div>
   </div>
   <div class="container-fluid">
-    <div class="col-lg-7 functions">
+    <div class="col-lg-7">
       <h2 class="func_h2">
         Funkcje aplikacji pomogą zrealizować <strong>TWÓJ CEL!</strong>
       </h2>
@@ -128,74 +130,121 @@
   </div>
 </div>
 <div class="se-slope mainServ">
-  <div id="service" class="container mainServRotate">
-    <h3>Możliwości Aplikacji</h3>
-    <div class="">
-      <div class="col-md-4">
+  <div class="servTitle" >
+    <div class="container-fluid servRotate">
+      <h3 id="service" >Niezwykła funkcjonalność</h3>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="row servFirst">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
           <img class="icoSet" src="./images/hourglass.png">
         </div>
         <div class="textServ">
           <h4>Oszczędzaj czas</h4>
-          <p>szybko łątwo i przyjemnie</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
-          <img class="icoSet" src="./images/graph.png">
+          <img class="icoSet " src="./images/graph.png">
         </div>
         <div class="textServ">
           <h4>Obserwuj postępy</h4>
-          <p>kalendarz? przed/po? coś w tym stylu</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
           <img class="icoSet" src="./images/server.png">
         </div>
         <div class="textServ">
           <h4>Zarządzaj dietą</h4>
-          <p>Dodawaj i usuwaj produkty</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
-      <div class="col-md-4">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
           <img class="icoSet" src="./images/worldwide.png">
         </div>
         <div class="textServ">
           <h4>Korzystaj gdzie chcesz</h4>
-          <p>Darmowa mobilna aplikacja</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
           <img class="icoSet" src="./images/street.png">
         </div>
         <div class="textServ">
           <h4>Dostosuj do własnych potrzeb</h4>
-          <p>co jeść, kiedy, ile kalorii</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4 col-xs-12 service1">
         <div class="icoBorder">
           <img class="icoSet" src="./images/smartphone%20(2).png">
         </div>
         <div class="textServ">
           <h4>Podziel się z innymi</h4>
-          <p>Możliwość udostępniania diet itp</p>
+          <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. </p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div id="subscribe" class="se-slope mainSubs">
-  <div class="subsHead">
-    <div class="container">
-      <h4>Subskrybuj i zyskaj więcej</h4>
+<div class="se-slope mainSubs">
+  <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <path d="M0 0 L50 100 L100 0 Z"></path>
+  </svg>
+  <div id="subscribe" class="container subsHead">
+      <h4>Zapisz się, gwarantowane najlepsze promocje</h4>
+      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est consectetur adipisci velit sed quia
+        non numquam eius.</p>
       <form action="#" method="post">
-        <input type="email" name="email" placeholder="Wprowadź swój email..." required="">
-        <input type="submit" value="Subscribe">
+        <input id="emailBox" type="email" name="email" placeholder="Wprowadź swój email..." required="">
+        <input id="subButton" type="submit" value="Subscribe">
       </form>
+    </div>
+  <!--</div>-->
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="col-md-4 col-sm-6 footCont">
+      <h3>Kontakt:</h3>
+      <p class="">Malesuada penatibus felis Neque porro quisquam est qui dolorem Lorem ipsum
+        dolor sit amet, aptent neque fringilla duis erast ridiculus.</p>
+      <p class="sub">Lublin, POLAND <span class="glyphicon glyphicon-map-marker icon"></span></p>
+      <p class="sub">Pon-Pt : 8 - 20 Sb : 8 - 14 <span class="glyphicon glyphicon-time icon"></span></p>
+      <p class="add">Tel : +48 061 487 44 44 <span
+              class="glyphicon glyphicon glyphicon-earphone icon"></span></p>
+      <p class="add">Email : <a class="mail" href="mailto:justfit.team@gmail.com">justfit.team@gmail.com</a> <span
+              class="glyphicon glyphicon-envelope icon"></span></p>
+    </div>
+    <div class="col-md-4 col-sm-6 followFoot">
+      <h3>Śledź nas:</h3>
+      <div>
+        <ul class="social-icons">
+          <li><a target="_blank" href="https://www.facebook.com/Justfit-877309445777722/" class="fb"> </a></li>
+          <li><a target="_blank" href="https://www.instagram.com/justfit.team/" class="in"> </a></li>
+          <li><a target="_blank" href="https://plus.google.com/u/0/108744131977163382563" class="gplus"> </a></li>
+          <li><a target="_blank" href="https://twitter.com/justFITteam" class="twit"> </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div id="map"></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2017 justFIT! All rights reserved | Design by <a href="https://www.linkedin.com/in/przemyslawposiej/">Przemysław Posiej</a> </p>
     </div>
   </div>
 </div>
@@ -208,58 +257,23 @@
       <div class="fp-tooltip right">O Aplikacji</div>
     </li>
     <li><a class="page-scroll smooth-slide" href="#function"><span></span></a>
-      <div class="fp-tooltip right">Funkcje</div>
-    </li>
-    <li><a class="page-scroll smooth-slide" href="#service"><span></span></a>
       <div class="fp-tooltip right">Możliwości</div>
     </li>
-    <!--<li><a href="#" data-anchor="gallery"><span></span></a>-->
-    <!--<div class="fp-tooltip right">Gallery</div>-->
-    <!--</li>-->
-    <!--<li><a href="#" data-anchor="contact"><span></span></a>-->
-    <!--<div class="fp-tooltip right">Contact</div>-->
-    <!--</li>-->
+    <li><a class="page-scroll smooth-slide" href="#service"><span></span></a>
+      <div class="fp-tooltip right">Funkcjonalność</div>
+    </li>
+    <li><a class="page-scroll smooth-slide" href="#subscribe"><span></span></a>
+      <div class="fp-tooltip right">Kontakt</div>
+    </li>
   </ul>
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/responsiveslides.min.js"></script>
-<script>
-  $(function () {
-    // Slideshow 3
-    $("#slider3").responsiveSlides({
-      auto: true,
-      pager: false,
-      nav: true,
-      speed: 1000,
-      namespace: "callbacks",
-      before: function () {
-        $('.events').append("<li>before event fired.</li>");
-      },
-      after: function () {
-        $('.events').append("<li>after event fired.</li>");
-      }
-    });
-
-  });
+<script src="js/scripts.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQoCUmaY_EZdBqz31E_d1ywS2mWOcIZT4&callback=initMap">
 </script>
-<script>
-  /*scroll menu*/
-  $(document).ready(function () {
 
-    $('.smooth-slide').click(function (e) {
-
-      var linkHref = $(this).attr('href');
-
-      $('html, body').animate({
-        scrollTop: $(linkHref).offset().top
-      }, 1000);
-
-      e.preventDefault();
-
-    })
-
-  });
-</script>
 </body>
 </html>

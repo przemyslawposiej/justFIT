@@ -1,0 +1,42 @@
+.footer {
+    background-color: #3c3c3c;
+    height: auto;
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footCont {
+    text-align: right;
+}
+
+.footCont span {
+    color: #1dcb8b;
+}
+
+.footCont h3 {
+    color: #1dcb8b;
+}
+
+.followFoot h3 {
+    text-align: center;
+    color: #1dcb8b;
+}
+
+.followFoot ul {
+    text-align: center;
+}
+
+.footer-bottom {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #1dcb8b;
+}
