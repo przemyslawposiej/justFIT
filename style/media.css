@@ -1,0 +1,340 @@
+@media screen and (max-width: 420px) {
+    .bannerStyle h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .bannerStyle p {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .bannerStyle {
+        width: 85%;
+    }
+
+    .callbacks_nav.next {
+        margin-left: 25px;
+    }
+
+    .mainHome {
+        background-position: center;
+        min-height: 0;
+    }
+
+    .mainAbout {
+        padding-bottom: 4em;
+    }
+
+    .aboutHead {
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .aboutList h3 {
+        padding-left: 0em;
+    }
+
+    .aboutList ul {
+        padding: 0;
+    }
+
+    .aboutCols h3 {
+        margin-bottom: 1em;
+    }
+
+    .aboutPic {
+        margin-top: 2em;
+        min-height: 200px;
+        padding: 15px;
+    }
+
+    .bg_wallpaper h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+
+    .func_h2 {
+        padding-top: 20px;
+    }
+
+    .func_h2_2 {
+        padding-top: 20px;
+    }
+
+    .func_h1 {
+        font-size: 17px;
+        line-height: 45px;
+        margin-bottom: 2em;
+    }
+
+    .func_h1_2 {
+        line-height: 30px;
+    }
+
+    .mainFunc {
+        padding-bottom: 2em;
+    }
+
+    .servRotate h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+
+    .servFirst {
+        margin-top: 0;
+    }
+
+    .mainSubs h4 {
+        font-size: 1.5em;
+        padding: 0 10px;
+    }
+
+    .mainSubs p {
+        font-weight: 600;
+    }
+
+    .subsHead input[type="email"] {
+        width: 110%;
+        padding: 1em 0em;
+    }
+
+    .subsHead input[type="submit"] {
+        padding: .8em 3em;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    .btn-normal {
+        margin: 3em 0;
+    }
+
+    .mainSocial {
+        margin: -55px -5px;
+    }
+
+    .social-icons li a {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 767px) {
+    .bannerStyle {
+        width: 80%;
+    }
+
+    .bannerStyle h4 {
+        margin-top: 8em;
+    }
+
+    .bannerStyle p {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-normal {
+        margin: 6em 0 0 0;
+    }
+
+    .mainSocial {
+        margin: 5em 0em 0em 0em;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    .aboutPic {
+        margin-top: 4em;
+        margin-left: 5em;
+        width: 75%;
+    }
+
+    .func_h2 {
+        padding-top: 40px;
+    }
+
+    .func_img {
+        margin-top: 3em;
+    }
+
+    .mainFunc {
+        padding-bottom: 4em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 1em 1em;
+    }
+
+    .bannerStyle {
+        width: 85%;
+    }
+
+    .bannerStyle h4 {
+        margin-top: 8em;
+    }
+
+    .bannerStyle p {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-normal {
+        margin: 6em 0 0 0;
+    }
+
+    .mainSocial {
+        margin: 14em 1em 0em 0em;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    .aboutPic {
+        margin-top: 0em;
+        margin-left: 0em;
+        width: 50%;
+        min-height: auto;
+    }
+
+    .aboutList {
+        width: 50%;
+    }
+
+    ul {
+        padding-top: 1em;
+    }
+
+    .func_h1 {
+        font-size: 50px;
+    }
+
+    .func_h2 {
+        padding-top: 40px;
+    }
+
+    .func_img {
+        margin-top: 3em;
+    }
+
+    .mainFunc {
+        padding-bottom: 4em;
+    }
+
+    .textServ {
+        margin-left: 0;
+    }
+
+    .icoBorder {
+        margin-left: 3em;
+        margin-bottom: 0px;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 1em 2em;
+        font-size: 19px;
+    }
+
+    .bannerStyle {
+        width: 90%;
+    }
+
+    .bannerStyle h4 {
+        margin-top: 7em;
+        font-size: 47px;
+    }
+
+    .bannerStyle p {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-normal {
+        margin: 6em 0 0 0;
+        padding: 16px 40px;
+    }
+
+    .mainSocial {
+        margin: 23em 2em 0em 0em;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    .aboutPic {
+        margin-top: 4em;
+        margin-left: 3em;
+        width: 30%;
+        min-height: auto;
+    }
+
+    .aboutList {
+        width: 30%;
+    }
+
+    ul {
+        padding-top: 1em;
+    }
+
+    .bg_wallpaper {
+        min-height: auto;
+    }
+
+    .func_h1 {
+        font-size: 50px;
+    }
+
+    .func_h2 {
+        padding-top: 40px;
+        font-size: 30px;
+    }
+
+    .img-responsive {
+        float: none;
+
+    .func_img {
+        margin-top: 3em;
+    }
+
+    .mainFunc {
+        padding-bottom: 4em;
+    }
+
+    .textServ {
+        margin-left: 0;
+    }
+
+    .icoBorder {
+        margin-left: 3em;
+        margin-bottom: 0px;
+        float: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+    body {
+    background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .bannerStyle h4 {
+        margin-top: 8em;
+    }
+    .mainSocial {
+        margin: 10em 2em 0em 0em;
+    }
+}
+
