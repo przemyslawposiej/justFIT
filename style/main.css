@@ -1,9 +1,9 @@
-html, body{
-    margin:0;
+html, body {
+    margin: 0;
     color: #ffffff;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    background: #fff;
+    background-color: #fff;
     overflow-x: hidden;
 }
 
@@ -14,17 +14,12 @@ html, body{
     background-image: url('../images/1.jpg');
     background-size: cover;
     background-position: center;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    -ms-background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
 }
 
-/*.homeHeader {*/
-    /*padding: 1em 2.5em 0;*/
-/*}*/
-
-/* navbar style*/
 .navbar-default {
     background: none;
     border: none;
@@ -46,7 +41,7 @@ html, body{
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav li a.active {
     color: #1dcb8b;
-    background: none!important;
+    background: none !important;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -74,44 +69,51 @@ html, body{
     width: 100%;
     padding: 0;
 }
+
 .rslides li {
     -webkit-backface-visibility: hidden;
     position: absolute;
-    display:none;
+    display: none;
     width: 100%;
     left: 0;
     top: 0;
 }
-.rslides li{
+
+.rslides li {
     position: relative;
     display: block;
     float: left;
 }
+
 .callbacks_nav {
     position: absolute;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    bottom:-10%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    bottom: -10%;
     left: 0;
     z-index: 3;
     text-indent: -9999px;
     overflow: hidden;
     text-decoration: none;
-    width:32px;
-    height:32px;
-    display:block;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
-.callbacks_nav:hover{
+
+.callbacks_nav:hover {
     opacity: 0.5;
 }
+
 .callbacks_nav.next {
     background: transparent url("../images/up.png") no-repeat 0px 0px;
     left: auto;
     left: 4%;
 }
+
 .callbacks_nav.prev {
     background: transparent url("../images/down.png") no-repeat 0px 0px;
     left: 0%;
 }
+
 .callbacks_nav.next, .callbacks_nav.prev {
     background-size: 22px;
     width: 22px;
@@ -137,10 +139,11 @@ html, body{
     margin: 5em 4em 0em 0em;
 }
 
-.social-icons li{
-    display:inline-block;
+.social-icons li {
+    display: inline-block;
 }
-.social-icons li a{
+
+.social-icons li a {
     /*background: url(../images/social-icons.png) no-repeat 2px 2px;*/
     display: block;
     height: 30px;
@@ -150,6 +153,7 @@ html, body{
     transition: .5s all;
     -moz-transition: .5s all;
 }
+
 .social-icons li a:before {
     content: '';
     display: block;
@@ -161,30 +165,35 @@ html, body{
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    -webkit-transition:.5s all;
-    -moz-transition:.5s all;
-    transition:.5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
 }
-.social-icons li a.fb{
+
+.social-icons li a.fb {
     background-image: url("../images/facebook.png");
     background-position: center;
     background-repeat: no-repeat;
 }
-.social-icons li a.in{
-    background-image: url("../images/linkedin.png");
+
+.social-icons li a.in {
+    background-image: url("../images/instagram.png");
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .social-icons li a.gplus {
     background-image: url("../images/google-plus.png");
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .social-icons li a.twit {
     background-image: url("../images/twitter.png");
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .social-icons li a:hover::before {
     border-color: #1dcb8b;
     -webkit-transform: rotatey(-393deg);
@@ -193,31 +202,34 @@ html, body{
     -ms-transform: rotatey(-393deg);
     transform: rotatey(-393deg);
 }
+
 /*-- //social-icons --*/
 
 .btn-normal {
     padding: 8px 20px;
     background: #1dcb8b;
     border: 2px solid #1dcb8b;
-    color: #fff!important;
-    text-decoration: none!important;
-    outline:none!important;
+    color: #fff !important;
+    text-decoration: none !important;
+    outline: none !important;
     float: left;
     margin: 3em 0 0 0;
     font-size: 16px;
     text-transform: capitalize;
 }
+
 .btn-normal:hover {
     color: #fff;
-    text-decoration: none!important;
-    outline:none!important;
-    background:transparent;
-    border-color:#fff;
+    text-decoration: none !important;
+    outline: none !important;
+    background: transparent;
+    border-color: #fff;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
 /*right menu*/
 #mainNav {
     position: fixed;
@@ -227,7 +239,10 @@ html, body{
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
 }
-#mainNav.right { right: 32px; }
+
+#mainNav.right {
+    right: 32px;
+}
 
 #mainNav ul li {
     display: block;
@@ -236,6 +251,7 @@ html, body{
     margin: 20px 7px;
     position: relative;
 }
+
 #mainNav ul li a {
     display: block;
     position: relative;
@@ -245,6 +261,7 @@ html, body{
     cursor: pointer;
     text-decoration: none;
 }
+
 #mainNav ul li a span {
     border-radius: 50%;
     position: absolute;
@@ -261,6 +278,7 @@ html, body{
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
+
 #mainNav ul li a span:hover {
     height: 13px;
     width: 13px;
@@ -287,6 +305,7 @@ html, body{
     width: 0;
     cursor: pointer;
 }
+
 #mainNav ul li .fp-tooltip:after {
     width: 0;
     height: 0;
@@ -298,6 +317,7 @@ html, body{
     border-width: 10px 0 10px 14px;
     border-color: transparent transparent transparent #0099e5;
 }
+
 #mainNav ul li:hover .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
     transition: opacity 0.2s ease-in;
@@ -305,6 +325,10 @@ html, body{
     opacity: 1;
 }
 
-#mainNav ul li .fp-tooltip.right { right: 25px; }
+#mainNav ul li .fp-tooltip.right {
+    right: 25px;
+}
 
-#mainNav ul li .fp-tooltip.left { left: 20px; }
+#mainNav ul li .fp-tooltip.left {
+    left: 20px;
+}

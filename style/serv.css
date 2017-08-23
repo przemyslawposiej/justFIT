@@ -1,6 +1,11 @@
 .mainServ {
-    background-color: #eaeaea;
-    color: #858585;
+    color: #000;
+    background: url("../images/layout.png") repeat-y;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+}
+
+.servTitle {
     transform-origin: right top;
     -webkit-transform-origin: right top;
     -moz-transform-origin: right top;
@@ -8,29 +13,30 @@
     -ms-transform-origin: right top;
     transform: rotate(4deg);
     overflow: hidden;
-    margin: 0px -100px;
-    padding-bottom: 10em;
+    margin: 0px -50px;
 }
-.mainServRotate {
-    transform: rotate(-4deg) ;
-    margin-top: 4em;
+
+.servRotate {
+    background-color: #EAEAEA;
+    color: #898989;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 10px 100px 10px 100px;
 }
-.mainServ h3 {
+
+.servRotate h3 {
     text-align: center;
     font-size: 2rem;
     line-height: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
+    margin-top: 2em;
     margin-bottom: 2em;
+    transform: rotate(-4deg);
 }
-.mainServ h4 {
-    text-align: left;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
+
 .icoBorder {
     width: 100px;
     height: 100px;
@@ -39,14 +45,29 @@
     border-radius: 100%;
     border: 1px solid #7b8185;
     box-shadow: 0 0 6px 1px #504848;
-}
-.icoSet {
-    display: block;
-    margin: 18px auto;
     position: relative;
 }
+
+.icoSet {
+    display: block;
+    margin: 1em auto;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+}
+
 .textServ {
     display: block;
     font-size: 15px;
     margin-left: 110px;
+}
+
+.service1 {
+    margin: 2em 0;
+}
+
+.servFirst {
+    margin-top: 3em;
 }
