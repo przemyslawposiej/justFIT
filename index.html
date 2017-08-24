@@ -203,15 +203,15 @@
     <path d="M0 0 L50 100 L100 0 Z"></path>
   </svg>
   <div id="subscribe" class="container subsHead">
-      <h4>Zapisz się, gwarantowane najlepsze promocje</h4>
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est consectetur adipisci velit sed quia
-        non numquam eius.</p>
-      <form action="#" method="post">
-        <input id="emailBox" type="email" name="email" placeholder="Wprowadź swój email..." required="">
-        <input id="subButton" type="submit" value="Subscribe">
-      </form>
-    </div>
+    <h4>Zapisz się, gwarantowane najlepsze promocje</h4>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+      dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est consectetur adipisci velit sed quia
+      non numquam eius.</p>
+    <form action="#" method="post">
+      <input id="emailBox" type="email" name="email" placeholder="Wprowadź swój email..." required="">
+      <input id="subButton" type="submit" value="Subscribe">
+    </form>
+  </div>
   <!--</div>-->
 </div>
 <div class="footer">
@@ -267,6 +267,19 @@
     </li>
   </ul>
 </div>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCvfI87ehtjfaKBJJku7VFy--JsFaz3tbk",
+    authDomain: "justfit-159df.firebaseapp.com",
+    databaseURL: "https://justfit-159df.firebaseio.com",
+    projectId: "justfit-159df",
+    storageBucket: "justfit-159df.appspot.com",
+    messagingSenderId: "90290352676"
+  };
+  firebase.initializeApp(config);
+</script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/responsiveslides.min.js"></script>
